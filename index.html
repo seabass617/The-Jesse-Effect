@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Imporant meta information to make the page as rigid as possible on mobiles, to avoid unintentional zooming on the page itself  -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Jesse Effect</title>
+    
+    <!-- Import the css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+  
+<!-- The loading element overlays all else until the model is loaded, at which point we remove this element from the DOM -->  
+<div class="loading" id="js-loader"><div class="loader"></div></div>
+  
+<div class="wrapper">
+    <!-- The canvas element is used to draw the 3D scene -->
+<canvas id="c"></canvas>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+<!-- import the js -->
+<script type="module" src="lib/index.js"></script>
