@@ -1,3 +1,5 @@
+@import "buttons.css";
+
 body,
 html {
   margin: 0;
@@ -16,6 +18,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
+  background: none;
 }
 .wrapper {
   display: flex;
@@ -29,6 +32,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
+  z-index: -9999;
 }
 
 .loading {
