@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 22%;
+  width: 10%;
   height:60%;
 }
 
@@ -37,6 +37,14 @@
   font-size: 30px;
   font-family: 'Patrick Hand', cursive;
   padding: 30px 0px;
+}
 
+.border-wrap:active {
+  background-image: linear-gradient(to bottom right, #616263 , #32373d);
+}
+
+.border-wrap:active .animation-button {
+  background-image: linear-gradient(to bottom right, #414850 , #616263 );
+  color: #8f7b19;
 
 }
